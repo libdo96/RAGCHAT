@@ -2,7 +2,6 @@
 
 This application allows you to upload PDF documents and ask questions about their content using Retrieval-Augmented Generation (RAG) with Google's Gemini models. It also supports general chat without PDF context.
 
-![RAG PDF Chat Demo](https://i.imgur.com/YourImageHere.png)
 
 ## Features
 
