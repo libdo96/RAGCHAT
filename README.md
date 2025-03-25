@@ -1,13 +1,13 @@
-# RAG-Powered PDF Chat with Gemini 1.5 Flash
+# RAG-Powered PDF Chat 
 
-This application allows you to upload PDF documents and ask questions about their content. It uses Retrieval-Augmented Generation (RAG) with Google's Gemini 1.5 Flash model to provide accurate answers based on the document content.
+This application allows you to upload PDF documents and ask questions about their content. It uses Retrieval-Augmented Generation (RAG) with Google's Gemini models to provide accurate answers based on the document content.
 
 ## Features
 
 - PDF document upload and processing
 - Text extraction and chunking
 - Vector embedding and similarity search
-- RAG-powered question answering using Gemini 1.5 Flash
+- RAG-powered question answering using Gemini Models
 - Simple chat interface
 
 ## Setup
@@ -50,8 +50,8 @@ The application will be available at http://localhost:8501
 
 1. **PDF Processing**: The application extracts text from the uploaded PDF and splits it into manageable chunks.
 2. **Vector Embedding**: Each text chunk is converted into a vector embedding using a sentence transformer model.
-3. **Retrieval**: When you ask a question, the application finds the most relevant text chunks using cosine similarity.
-4. **Generation**: The relevant chunks are sent to the Gemini 1.5 Flash model along with your question to generate a contextually accurate response.
+3. **Retrieval**: When you ask a question, the application finds the most relevant text chunks using cosine similarity simply semantic search.
+4. **Generation**: The relevant chunks are sent to the Gemini models along with your question to generate a contextually accurate response.
 
 ## Limitations
 
