@@ -29,8 +29,8 @@ This application allows you to upload PDF documents and ask questions about thei
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
+git clone https://github.com/libdo96/RAGCHAT.git
+cd RAGCHAT
 ```
 
 ### Setup the Project
@@ -43,11 +43,11 @@ python setup.py
 
 ### Configure API Key
 
-Copy the example environment file and add your Google API key:
+Rename the .env.example to .env and add your Google API key:
 
-```bash
-cp .env.example .env
-```
+macOS/Linux:`mv .env.example .env`
+Windows (Powershell) : `Rename-Item .env.example -NewName .env`
+Windows (Command prompt): `ren .env.example .env`
 
 Then edit the `.env` file and replace `your_api_key_here` with your actual Google API key.
 
