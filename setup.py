@@ -89,7 +89,7 @@ def setup_project():
     print("Setting up RAG-Powered PDF Chat with Gemini...\n")
     
     # Check if all required files exist
-    required_files = ["app.py", "pdf_processor.py", "vector_store.py", "rag_engine.py", "requirements.txt"]
+    required_files = ["app.py", "modules/pdf_processor.py", "modules/vector_store.py", "modules/rag_engine.py", "requirements.txt"]
     missing_files = [file for file in required_files if not os.path.exists(file)]
     
     if missing_files:
