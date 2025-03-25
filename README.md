@@ -53,7 +53,7 @@ Then edit the `.env` file and replace `your_api_key_here` with your actual Googl
 ### Run the Application
 
 ```bash
-python run.py
+streamlit run app.py
 ```
 
 The application will be available at http://localhost:8501
